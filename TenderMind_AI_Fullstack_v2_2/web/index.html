@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c1626"><title>TenderMind AI — Procurement OS</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="app" id="app">
+<aside class="sidebar" id="sidebar"><div class="identity"><div class="mark">T<span>✦</span></div><div><strong>TenderMind <em>AI</em></strong><small>PROCUREMENT WORKSPACE</small></div></div>
+<div class="workspace"><span class="workspace-icon">◈</span><div><small>РАБОЧАЯ ОБЛАСТЬ</small><b>Моя компания</b></div><span class="chevron">⌄</span></div>
+<div class="nav-caption">РАЗДЕЛЫ</div><nav id="navigation" aria-label="Главное меню"></nav>
+<div class="side-bottom"><div class="assist-card"><span class="assist-spark">✦</span><b>От тендера до решения</b><p>Анализируйте требования, сравнивайте предложения и оценивайте риски.</p><button id="tourBtn" class="mini-cta">Как это работает ↗</button></div><div class="profile"><div class="avatar">TM</div><div><b>Локальный пользователь</b><small>Локальная версия</small></div><span class="online"></span></div></div></aside>
+<div class="main-shell"><header class="topbar"><div class="top-left"><button class="icon-btn mobile-menu" id="menuToggle" aria-label="Открыть меню">☰</button><span class="breadcrumb">Рабочая область</span><span class="crumbslash">/</span><strong id="crumbCurrent">Обзор</strong></div><div class="top-right"><span class="local-tag"><span class="live-dot"></span> <span data-i18n="localVersion">Локальная рабочая версия</span></span><div class="lang-switch"><button class="lang-btn" data-lang="ru">RU</button><button class="lang-btn" data-lang="kk">KZ</button><button class="lang-btn" data-lang="en">EN</button></div><button class="icon-btn" id="themeToggle" title="Сменить тему" aria-label="Сменить тему">☾</button><button class="top-avatar" title="Локальный пользователь">TM</button></div></header>
+<main id="page" tabindex="-1"></main><footer class="footer">TenderMind AI · Локальные проекты и отдельно отмеченные демоданные · Не является официальной площадкой госзакупок <span>Версия Fullstack 2.0</span></footer></div>
+</div>
+<div class="toast-region" id="toasts" aria-live="polite"></div>
+<dialog id="modal"><form method="dialog"><button class="modal-close" aria-label="Закрыть">✕</button><div id="modalContent"></div></form></dialog>
+<script src="/static/i18n.js"></script><script src="app.js"></script><script src="integration.js"></script></body></html>
